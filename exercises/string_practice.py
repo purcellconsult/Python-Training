@@ -173,11 +173,9 @@ print()
 
 # random password generator
 # ---------------------------
-# create a random password with length of 15
-# the password must include only ascii letters, digits, and punctuation
-# the password must contain
-# must contain at least 1 digit
-# must contain at least one punctuation symbol
+# create a random password with default length of 15
+# the password length can be modified by the user. But can't be less than 15 or greater than 30
+# the password can have ascii letters, digits, and punctuation
 #  create a function called random_password_generator()
 # -----------------------------------------------------
 
@@ -185,4 +183,33 @@ print()
 print(string.ascii_letters) # returns all of the ascii letters in the alphabet
 print(string.digits) # returns only digits
 print(string.punctuation) # returns only punctuation marks
+
+
+# random person generator
+# -----------------------
+# create a random person with the following details
+# a name
+# a gender
+# a phone number
+# city of residence
+# favorite food
+# male names = 'Adam', "Ben', 'Charles', 'Dan', 'Eric'
+# female names - 'Alice', 'Beth, 'Cindy', 'Danica', 'Evora'
+# create a module called random person
+# create a function for each feature
+# create a function that returns the results as a dictionary
+
+# tips
+# ----
+# think about data structure to use
+# ---------------------------------------
+# use the choice function from random module
+# female = ['Alice', 'Beth', 'Cindy', 'Danica, 'Evora']
+# name = choice(female)
+# >>> name
+# 'Alice'
+
+
+
+
 
