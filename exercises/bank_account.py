@@ -48,13 +48,8 @@ class BankAccount:
     def print_balance(self):
         print(self.balance)
 
+
 if __name__ == '__main__':
     account_one = BankAccount(5000, '123-3773-282')
     account_one.make_deposit(1000)
-    print(account_one.get_balance())
-    account_one.withdraw(2000)
-    print(account_one.get_balance())
-    account_one.make_deposit(100)
-    print(account_one.get_balance())
-
-
+    account_one.withdraw(500)
